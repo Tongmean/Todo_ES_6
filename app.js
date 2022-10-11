@@ -3,7 +3,7 @@ const list = document.querySelector('.todos');
 const search = document.querySelector('.search input');
 const generateTemplate = (todo)=>{
     const html = `
-        <li class="list-group-item" >
+        <li class="list-group-item d-flex justify-content-between" >
             <span>${todo}</span>
             <i class="fa fa-trash delete"></i>
         </li>
